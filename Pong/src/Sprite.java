@@ -60,7 +60,7 @@ public class Sprite {
 		return xVelocity;
 	}
 	
-	public void setxVelicity(int xVelocity) {
+	public void setxVelocity(int xVelocity) {
 		this.xVelocity = xVelocity;
 	}
 	
@@ -68,7 +68,7 @@ public class Sprite {
 		return yVelocity;
 	}
 	
-	public void setyVelicity(int yVelocity) {
+	public void setyVelocity(int yVelocity) {
 		this.yVelocity = yVelocity;
 	}
 	
