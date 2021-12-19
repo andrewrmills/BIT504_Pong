@@ -18,15 +18,15 @@ public class Sprite {
 	}
 	//Unsure about second variable
 	public void resetToInitialPosition() {
-		setxPosition(initialxPosition,0);
-		setyPosition(initialyPosition,0);
+		setxPosition(initialxPosition);
+		setyPosition(initialyPosition);
 	}
 	
 	public int getxPosition() {
 		return xPosition;
 	}
 	
-	public void setxPosition() {
+	public void setxPosition(int xPosition) {
 		this.xPosition = xPosition;
 	}
 	
@@ -43,7 +43,7 @@ public class Sprite {
 		return yPosition;
 	}
 	
-	public void setyPosition() {
+	public void setyPosition(int yPosition) {
 		this.yPosition = yPosition;
 	}
 	
@@ -60,7 +60,7 @@ public class Sprite {
 		return xVelocity;
 	}
 	
-	public void setxVelicity() {
+	public void setxVelicity(int xVelocity) {
 		this.xVelocity = xVelocity;
 	}
 	
@@ -68,7 +68,7 @@ public class Sprite {
 		return yVelocity;
 	}
 	
-	public void setyVelicity() {
+	public void setyVelicity(int yVelocity) {
 		this.yVelocity = yVelocity;
 	}
 	
@@ -76,7 +76,7 @@ public class Sprite {
 		return width;
 	}
 	
-	public void setWidth () {
+	public void setWidth (int width) {
 		this.width = width;
 	}
 	
@@ -84,7 +84,7 @@ public class Sprite {
 		return height;
 	}
 	
-	public void setHeight() {
+	public void setHeight(int height) {
 		this.height = height;
 	}
 	
@@ -92,7 +92,7 @@ public class Sprite {
 		return color;
 	}
 	
-	public void setColor() {
+	public void setColor(Color color) {
 		this.color = color;
 	}
 	
